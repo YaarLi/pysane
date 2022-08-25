@@ -1,0 +1,44 @@
+import math;
+from json import *;
+
+let x = math.sqrt(2);
+
+let y = dumps([1, 2]);
+
+def hie(a = "hi", b, c = 1){
+	print(a + b+ c);
+}
+
+x = 3;
+
+hie(2);
+
+class mallard{
+	let y = 2;
+	def __init__(self){
+		let self.z = 2;
+	}
+}
+
+class duck(mallard) {
+	def quack(self){
+		print("quack");
+	}
+}
+
+for i in range(2){
+	print(i + 2);
+}
+{
+print("finish");
+}
+while(x not in {2}){
+	let a = 3;
+}
+while((x+1*0) not in {2}){
+	let b = 4;
+}
+let a = 2;
+while (a+1) < 5{
+a+=1;
+}
